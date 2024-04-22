@@ -1,0 +1,183 @@
+/* soft reset de style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+/* Generales */
+.font-weight-500{
+    font-weight: 500;
+}
+.font-weight-700{
+    font-weight: 700;
+}
+section{
+    padding: 2rem;
+}
+/* Fonts */
+header, footer{
+    height: 130px;
+    align-content: center;
+}
+
+img{
+    border-radius: 20px;
+}
+h2{
+    margin-bottom: 1.5rem;
+}
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+/* Formato de fechas */
+.fecha{
+    color: #171717;
+    font-size: 18px;
+    padding: 1rem;
+}
+/* --- Logos --- */
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+.logo p{
+    font-weight: 500;
+}
+.logo_img{
+    border-radius: 50%;
+    width: 3rem;
+}
+/* ---------------------- */
+.max-width-1400{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.container-flex{
+    display: flex;
+}
+
+
+/* Header */
+
+.banner_logo img{
+    height: 3rem;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+/* Section Novedades */
+.container_novedades{
+    justify-content: space-between;
+}
+.novedades_principal{
+    width: 55%;
+}
+.novedades_principal_img{
+    width: 100%;
+    height: 70%;
+}
+/* Cards Novedades */
+.container_cards{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container_novedades_card{
+    padding-bottom: 1rem;
+}
+
+.novedades_card_img{
+    width: 50%;
+}
+.novedades_card_title{
+    font-size: 20px;
+    padding: 1rem;
+    font-weight: 700;
+}
+.novedades_card_cuerpo{
+    width: 50%;
+    margin-left: 1rem;
+}
+/* Section 2 */
+
+
+/* Populares */
+.populares_subcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.populares_container_cards{
+    width: 65%;
+}
+.populares_card{
+    margin: 2rem;
+    height: 21rem;
+}
+.populares_card_img{
+    width: 100%;
+    height: 50%;
+}
+.populares_card_title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Categorías */
+.categorias_text-align{
+    margin-left: 2rem;
+}
+.box{
+    border-radius: 10px;
+    margin: 2rem;
+}
+.box_img-size{
+    width: 5rem;
+}
+.box_name{
+    width: 19rem;
+    font-size: 32px;
+    color: white;
+}
+.box_name-format{
+    text-align: end;
+    font-size: 32px;
+    padding: 1rem 0.5rem;
+}
+/* Colores de boxes categorías */
+.HTML-color{
+    background-color: #E93E30;
+}
+.JS-color{
+    background-color: #F7E018;
+}
+.CSS-color{
+    background-color: #299ED5;
+}
+.React-color{
+    background-color: #292C33;
+}
+.Vue-color{
+    background-color: #67C770;
+}
+.Bootstrap-color{
+    background-color: #563D7C;
+}
+.categorias_masCategorias{
+    margin: 2rem;
+    font-size: 20px;
+}
+
+/* Footer */
+
+.banner_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.banner_logo-size{
+    font-size: 24px;
+}
