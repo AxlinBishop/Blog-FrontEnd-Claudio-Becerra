@@ -2,14 +2,14 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 /* Generales */
 .font-weight-500{
     font-weight: 500;
 }
-.font-weight-700{
+.font-weight700{
     font-weight: 700;
 }
 section{
@@ -46,12 +46,12 @@ h3{
 .logo p{
     font-weight: 500;
 }
-.logo_img{
+.logo__img{
     border-radius: 50%;
     width: 3rem;
 }
 /* ---------------------- */
-.max-width-1400{
+.max-width1400{
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -62,43 +62,43 @@ h3{
 
 /* Header */
 
-.banner_logo img{
+.banner__logo img{
     height: 3rem;
     border-radius: 10px;
     margin-right: 1rem;
 }
 
 /* Section Novedades */
-.container_novedades{
+.novedades__container{
     justify-content: space-between;
 }
-.novedades_principal{
+.novedades__principal{
     width: 55%;
 }
-.novedades_principal_img{
+.novedades__principal__img{
     width: 100%;
     height: 70%;
 }
 /* Cards Novedades */
-.container_cards{
+.card__container{
     width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.container_novedades_card{
+.container__novedades__card{
     padding-bottom: 1rem;
 }
 
-.novedades_card_img{
+.novedades__card__img{
     width: 50%;
 }
-.novedades_card_title{
+.novedades__card__title{
     font-size: 20px;
     padding: 1rem;
     font-weight: 700;
 }
-.novedades_card_cuerpo{
+.novedades__card__cuerpo{
     width: 50%;
     margin-left: 1rem;
 }
@@ -110,41 +110,42 @@ h3{
     display: flex;
     flex-direction: column;
 }
-.populares_container_cards{
+.populares__card__container{
     width: 65%;
 }
-.populares_card{
+.populares__card{
     margin: 2rem;
     height: 21rem;
 }
-.populares_card_img{
+.populares__card__img{
     width: 100%;
     height: 50%;
 }
-.populares_card_title{
+.populares__card__title{
     font-size: 20px;
     font-weight: 700;
 }
 
 /* Categorías */
-.categorias_text-align{
+.categorias__text--align{
     margin-left: 2rem;
 }
 .box{
     border-radius: 10px;
     margin: 2rem;
 }
-.box_img-size{
+.box__img--size{
     width: 5rem;
 }
-.box_name{
+.box__name{
     width: 19rem;
     font-size: 32px;
     color: white;
 }
-.box_name-format{
+.box__name--format{
     text-align: end;
     font-size: 32px;
+    font-weight: 700;
     padding: 1rem 0.5rem;
 }
 /* Colores de boxes categorías */
@@ -173,11 +174,11 @@ h3{
 
 /* Footer */
 
-.banner_logo{
+.banner__logo{
     display: flex;
     justify-content: space-between;
     align-items: center
 }
-.banner_logo-size{
+.banner__logo--size{
     font-size: 24px;
 }
